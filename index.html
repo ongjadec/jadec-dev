@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADEC - Jeunes Actionnaires pour le Développement du Congo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d0e8ff;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .logo {
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    .slogan {
+      font-style: italic;
+      font-size: 1.2em;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 40px 20px;
+    }
+
+    .btn {
+      background-color: #0055cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background-color: #003d99;
+    }
+
+    .titre-anim {
+      animation: slideIn 2s ease-out;
+      color: #003366;
+      text-align: center;
+      font-size: 2.5em;
+      margin-top: 20px;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .fondateur {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .photo-membre {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0055cc;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #003366;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="jadec" alt="Logo JADEC" class="logo">
+      <h1>JADEC</h1>
+      <p class="slogan">Jeunes Actionnaires pour le Développement du Congo</p>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#mission">Notre mission</a></li>
+          <li><a href="#fondateurs">Membres fondateurs</a></li>
+          <li><a href="#actions">Nos actions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="accueil" class="section">
+    <div class="container">
+      <h2 class="titre-anim">Bienvenue à l’ONG JADEC</h2>
+      <p>Jeunes Actionnaires pour le Développement du Congo « J.A.DE.C », est une organisation non gouvernementale dédiée au mouvement de la jeunesse congolaise, qui tend à promouvoir l’épanouissement des jeunes et à favoriser leurs impulsions actives dans le développement socio-économique du pays.
+         Conscients des défis auxquels la nation congolaise est confrontée, nous croyons fermement que les jeunes sont non seulement l’avenir mais aussi la force motrice du changement.Au travers des initiatives innovantes, des programmes éducatifs et des partenariats stratégiques, l’ONG vise à renforcer la capacité des jeunes à devenir des acteurs responsables et engagés dans la construction du Congo prospère.
+         Nous aspirons à créer un espace où chaque jeune peut s’exprimer, développer ses compétences et contribuer au bien-être de sa communauté.
+</p>
+      <a href="#contact" class="btn">Adhérer maintenant</a>
+    </div>
+  </section>
+
+  <section id="mission" class="section">
+    <div class="container">
+      <h2>Notre mission</h2>
+	  <p>L’ONG a pour mission de promouvoir l’épanouissement de la jeunesse congolaise, assurer leur implication dans le développement socio-économique, focaliser des objectifs actifs dans le domaine de l’emploi, braver sur autonomie financière, ainsi que l’interdépendance politique.</p>
+      <p>Sensibiliser les jeunes sur leurs droits, leurs responsabilités et leurs potentiels à travers des campagnes de communication, des conférences et des formations.</p>
+	  <p>Encourager l’autonomisation économique des jeunes par le soutien à l’entrepreneuriat, l’accès aux financements, aux formations professionnelles et aux opportunités d’emploi.</p>
+	  <p>Lutter contre la discrimination, qu’elles soient physiques, psychologiques ou économiques, en mettant en place des mécanismes de prévention, d’écoute, d’orientation et d’accompagnement des victimes.</p>
+	  <p>Valoriser le leadership de la jeunesse dans les domaines communautaire, politique, religieux, éducatif et économique.</p>
+	  <p>Soutenir l’éducation des jeunes, en luttant contre les mariages précoces, les grossesses non désirées, et les inégalités d’accès à l’éducation.</p>
+	  <p>Créer des réseaux de solidarité entre jeunes, renforcer l’entraide, la sororité et le développement d’une conscience collective.</p>
+	  
+    </div>
+  </section>
+
+  <section id="fondateurs" class="section">
+    <div class="container">
+      <h2>Membres fondateurs</h2>
+      <div class="fondateur">
+        <img src="coordo.jpg" alt="Pierre Ntumba" class="photo-membre">
+        <h3>Pierre Ntumba</h3>
+        <p>Président, formateur et fondateur principal</p>
+      </div>
+      <div class="fondateur">
+        <h3>Cedrick Muamba</h3>
+        <p>Vice-président</p>
+      </div>
+      <div class="fondateur">
+        <h3>Angela Tuseku</h3>
+        <p>Trésorière</p>
+      </div>
+      <div class="fondateur">
+        <h3>Patient Kanku</h3>
+        <p>Secrétaire général</p>
+      </div>
+      <div class="fondateur">
+        <h3>Jonathan Mokuba</h3>
+        <p>Secrétaire général adjoint</p>
+      </div>
+      <div class="fondateur">
+        <h3>Israël Mbenza</h3>
+        <p>Chargé de la communication</p>
+      </div>
+      <div class="fondateur">
+        <h3>Trésor Kaboka</h3>
+        <p>Chargé de partenariat et mobilisation</p>
+      </div>
+      <div class="fondateur">
+        <h3>Roger Bope</h3>
+        <p>Coordonnateur provincial</p>
+      </div>
+      <div class="fondateur">
+        <h3>André Kapuku</h3>
+        <p>Coordonnateur provincial</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="actions" class="section">
+    <div class="container">
+      <h2>Nos actions</h2>
+      <p>JADEC organise des conférences, des formations en informatique, bureautique, leadership et des activités de sensibilisation dans les quartiers et écoles.</p>
+      <p><strong>Email :</strong> <a href="https://mail.google.com/mail/u/1/">contact@ong-jadec.org</a></p>
+      <p><strong>Téléphone :</strong> <a href="tel:+243814248644">+243 814 248 644</a></p>
+      <p><strong>Facebook :</strong> <a href="https://web.facebook.com/profile.php?id=61576888451303&sk=about" target="_blank" rel="noopener noreferrer">ONG.JADEC</a></p>
+      <p><strong>Instagram :</strong> <a href="https://www.instagram.com/ongjadec/" target="_blank" rel="noopener noreferrer">@ong_jadec</a></p>
+      <p><strong>YouTube :</strong> <a href="https://www.youtube.com/feed/you" target="_blank" rel="noopener noreferrer">Chaîne JADEC</a></p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact / Adhésion</h2>
+      <form>
+        <label>Nom :</label>
+        <input type="text" name="nom" required>
+        <label>Prénom :</label>
+        <input type="text" name="prenom" required>
+        <label>Email :</label>
+        <input type="email" name="email" required>
+        <label>Téléphone :</label>
+        <input type="tel" name="telephone" required>
+        <label>Adresse :</label>
+        <input type="text" name="adresse" required>
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL7Cm6EuLfet2eR-jj9cANOJoE4D2EsaWNy3IGnwlGMPvRpA/viewform?usp=header" target="_blank" class="btn"> Envoyez</a>
+
+      </form>
+      <p><strong>Siège :</strong> Avenue Mvuete, n°9 bis, quartier Lingwala, Bandalungwa, Kinshasa</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 JADEC – Tous droits réservés</p>
+    </div>
+  </footer>
+</body>
+</html>
